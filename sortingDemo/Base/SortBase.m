@@ -1,15 +1,13 @@
 //
-//  PrefixHeader.pch
+//  SortBase.m
 //  sortingDemo
 //
 //  Created by my y on 2019/1/9.
 //  Copyright © 2019 myy.company.com. All rights reserved.
 //
 
-#ifndef PrefixHeader_pch
-#define PrefixHeader_pch
-
-#import "NSArray+YMM_Array.h"
 #import "SortBase.h"
 
-#endif /* PrefixHeader_pch */
+@implementation SortBase
+
+@end

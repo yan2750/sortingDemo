@@ -12,6 +12,8 @@
 		6F46DBA121E5A34B0020D147 /* ListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F46DB9721E5A34B0020D147 /* ListNode.m */; };
 		6F46DBA221E5A34B0020D147 /* reversalList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F46DB9A21E5A34B0020D147 /* reversalList.m */; };
 		6F46DBA321E5A34B0020D147 /* SortALG.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F46DB9E21E5A34B0020D147 /* SortALG.m */; };
+		6F46DBAE21E5C6380020D147 /* FindSecBigNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F46DBAD21E5C6380020D147 /* FindSecBigNumber.m */; };
+		6F46DBB221E5C6820020D147 /* SortBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F46DBB121E5C6820020D147 /* SortBase.m */; };
 		6FFA45A621B3DB6500DD7D3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFA45A521B3DB6500DD7D3E /* AppDelegate.m */; };
 		6FFA45A921B3DB6500DD7D3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFA45A821B3DB6500DD7D3E /* ViewController.m */; };
 		6FFA45AC21B3DB6500DD7D3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FFA45AA21B3DB6500DD7D3E /* Main.storyboard */; };
@@ -51,6 +53,10 @@
 		6F46DB9D21E5A34B0020D147 /* ListNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListNode.h; sourceTree = "<group>"; };
 		6F46DB9E21E5A34B0020D147 /* SortALG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortALG.m; sourceTree = "<group>"; };
 		6F46DBAA21E5A43C0020D147 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6F46DBAC21E5C6380020D147 /* FindSecBigNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindSecBigNumber.h; sourceTree = "<group>"; };
+		6F46DBAD21E5C6380020D147 /* FindSecBigNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindSecBigNumber.m; sourceTree = "<group>"; };
+		6F46DBB021E5C6820020D147 /* SortBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortBase.h; sourceTree = "<group>"; };
+		6F46DBB121E5C6820020D147 /* SortBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SortBase.m; sourceTree = "<group>"; };
 		6FFA45A121B3DB6400DD7D3E /* sortingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sortingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FFA45A421B3DB6500DD7D3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6FFA45A521B3DB6500DD7D3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -112,6 +118,8 @@
 				6F46DB9A21E5A34B0020D147 /* reversalList.m */,
 				6F46DB9C21E5A34B0020D147 /* SortALG.h */,
 				6F46DB9E21E5A34B0020D147 /* SortALG.m */,
+				6F46DBAC21E5C6380020D147 /* FindSecBigNumber.h */,
+				6F46DBAD21E5C6380020D147 /* FindSecBigNumber.m */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -131,6 +139,15 @@
 				6F46DB9721E5A34B0020D147 /* ListNode.m */,
 			);
 			path = Mode;
+			sourceTree = "<group>";
+		};
+		6F46DBAF21E5C6500020D147 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6F46DBB021E5C6820020D147 /* SortBase.h */,
+				6F46DBB121E5C6820020D147 /* SortBase.m */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		6FFA459821B3DB6400DD7D3E = {
@@ -156,6 +173,7 @@
 		6FFA45A321B3DB6500DD7D3E /* sortingDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6F46DBAF21E5C6500020D147 /* Base */,
 				6FFA45A421B3DB6500DD7D3E /* AppDelegate.h */,
 				6FFA45A521B3DB6500DD7D3E /* AppDelegate.m */,
 				6FFA45A721B3DB6500DD7D3E /* ViewController.h */,
@@ -321,6 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F46DBAE21E5C6380020D147 /* FindSecBigNumber.m in Sources */,
 				6F46DBA321E5A34B0020D147 /* SortALG.m in Sources */,
 				6FFA45A921B3DB6500DD7D3E /* ViewController.m in Sources */,
 				6F46DBA121E5A34B0020D147 /* ListNode.m in Sources */,
@@ -328,6 +347,7 @@
 				6F46DBA221E5A34B0020D147 /* reversalList.m in Sources */,
 				6FFA45B421B3DB6800DD7D3E /* main.m in Sources */,
 				6F46DB9421E5A3030020D147 /* NSArray+YMM_Array.m in Sources */,
+				6F46DBB221E5C6820020D147 /* SortBase.m in Sources */,
 				6FFA45A621B3DB6500DD7D3E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

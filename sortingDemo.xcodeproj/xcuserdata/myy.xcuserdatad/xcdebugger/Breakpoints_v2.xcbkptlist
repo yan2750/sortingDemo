@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "sortingDemo/ViewController.m"
-            timestampString = "568700197.596402"
+            timestampString = "568707349.231338"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
             landmarkName = "-reverselist"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,13 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "sortingDemo/ViewController.m"
-            timestampString = "568700197.597085"
+            timestampString = "568707349.232113"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
-            landmarkName = "-reverselist"
-            landmarkType = "7">
+            startingLineNumber = "60"
+            endingLineNumber = "60">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

@@ -12,6 +12,7 @@
 #import "ListNode.h"
 #import "SortALG.h"
 #import "BubbleSort.h"
+#import "FindSecBigNumber.h"
 
 @interface ViewController ()
 
@@ -21,10 +22,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    [self reverselist];
-    [self bubbleSort];
-    [self quickSort];
+//    [self reverselist];
+//    [self bubbleSort];
+//    [self quickSort];
+    [self findSecondBigNumber];
+}
+
+- (void)findSecondBigNumber {
+    FindSecBigNumber *secbigNumber = [[FindSecBigNumber alloc] init];
 }
 
 - (void)bubbleSort {
